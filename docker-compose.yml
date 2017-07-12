@@ -1,0 +1,10 @@
+version: '2'
+services:
+  app:
+    image: hexeo/hbot-proxy
+    build: .
+    ports:
+      - 3000:3000
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./src/main.js:/opt/main.js

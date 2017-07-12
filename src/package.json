@@ -1,0 +1,12 @@
+{
+  "name": "hbot-proxy",
+  "version": "1.0.0",
+  "description": "Docker Deamon Proxy for hbot",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.14.1",
+    "request": "^2.79.0"
+  }
+}
